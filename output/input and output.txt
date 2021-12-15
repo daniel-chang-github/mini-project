@@ -1,1 +1,171 @@
- 
+#Employee login
+Welcome to the bank system.
+
+Plase select one option
+1) Employee login
+2) Customer login
+3) Exit
+
+
+1
+
+What would you like to do?
+
+Please select one option
+1)Create a new user
+2)Deactivate a user
+3)Activate a user
+4)Create a bank account
+5)Exit
+
+
+1
+What is the new user's name?
+John
+What is the new user's phone number?
+123-456-789
+What is the new user's ssn number?
+654-987-132
+What is the user type? E for employee, C for customer.
+E
+New employee John was added 
+The employee id is 7
+
+What would you like to do?
+
+Please select one option
+1)Create a new user
+2)Deactivate a user
+3)Activate a user
+4)Create a bank account
+5)Exit
+
+
+2
+(1, 'Empl 1', '201-123-1234', True, '123-456-789', 'E', 1, None)
+(2, 'Empl 2', '201-123-1234', True, '123-456-789', 'E', 2, None)
+(3, 'Empl 3', '201-123-1234', True, '123-456-789', 'E', 3, None)
+(4, 'Empl 4', '201-123-1234', True, '123-456-789', 'E', 4, None)
+(5, 'Cust 1', '201-123-1234', True, '123-456-789', 'C', None, 1)
+(6, 'Cust 2', '201-123-1234', True, '123-456-789', 'C', None, 2)
+(7, 'Cust 3', '201-123-1234', True, '123-456-789', 'C', None, 3)
+(8, 'Cust 4', '201-123-1234', True, '123-456-789', 'C', None, 4)
+(9, 'New customer', '', True, '', 'E', 5, None)
+(10, 'Daniel', '123-456-7899', True, '123-465-489', 'E', 6, None)
+(11, 'John', '123-456-789', True, '654-987-132', 'E', 7, None)
+What is the user's name you want to deactivate?
+11
+
+What would you like to do?
+
+Please select one option
+1)Create a new user
+2)Deactivate a user
+3)Activate a user
+4)Create a bank account
+5)Exit
+
+
+3
+What is the user's name you want to activate?
+John
+
+What would you like to do?
+
+Please select one option
+1)Create a new user
+2)Deactivate a user
+3)Activate a user
+4)Create a bank account
+5)Exit
+
+
+4
+What is the customer number?
+2
+What is the account type? C for Checking, S for Savings.
+C
+Account was created
+
+What would you like to do?
+
+Please select one option
+1)Create a new user
+2)Deactivate a user
+3)Activate a user
+4)Create a bank account
+5)Exit
+
+
+@Customer login
+
+
+Welcome to the bank system.
+
+Plase select one option
+1) Employee login
+2) Customer login
+3) Exit
+
+
+2
+
+What would you like to do?
+
+Please select one option.
+1)Login
+2)Exit
+
+1
+Please enter the user number
+
+1
+Please enter the account number
+
+10
+
+Selected customer
+Customer number: 1
+Account number: 10
+Current balance: [150.]
+
+What would you like to do?
+1)Withdrawal
+2)Deposit
+
+
+1
+How much do you want to withdraw? Please enter a whole number.
+10
+Current balance:[150.]
+Balance after withdrawl:[140.]
+
+What would you like to do?
+
+Please select one option.
+1)Login
+2)Exit
+
+1
+Please enter the user number
+
+1
+Please enter the account number
+
+10
+
+Selected customer
+Customer number: 1
+Account number: 10
+Current balance: [140.]
+
+What would you like to do?
+1)Withdrawal
+2)Deposit
+
+
+2
+How much do you want to deposit? Please enter a whole number.
+30
+Current balance: [140.]
+Balance after the deposit: [170.]
